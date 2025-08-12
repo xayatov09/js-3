@@ -60,4 +60,5 @@ function animate() {
     if (x > canvas.width) x = -truckLength;
     requestAnimationFrame(animate);
 }
+
 animate();
